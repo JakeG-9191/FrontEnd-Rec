@@ -1,3 +1,7 @@
+* {
+  border-width: thin;
+}
+
 body {
   width: 80%;
   margin-left: 10%;
@@ -10,20 +14,22 @@ body {
 
 #menu-icon {
   float: left;
-  height: 7rem;
+  height: 5.7rem;
+  border-radius: 4px;
 }
 
 #menu-icon-2 {
   position: absolute;
   top: 1rem;
   left: -5rem;
-  height: 20px;
+  height: 30px;
 }
 
 input {
   position: absolute;
   top: 1rem;
   left: -15rem;
+  height: 24px;
 }
 
 nav {
@@ -34,20 +40,22 @@ nav {
 }
 
 .nav-buttons {
-  padding: 3rem;
-  border-style: solid;
+  padding: 2rem;
   background-color: #e3e3e3;
   margin-left: 0;
   border-top: 0;
   border-bottom: 0;
   border-left: 0;
-  border-color: #e3e3e3;
-  border-style: groove;
+  border-color: #d8d7d7;
+  border-style: solid;
   font-weight: 900;
+  border-radius: 4px;
+  font-size: larger;
 }
 
 .hero {
   margin-top: 1%;
+  color: #989897;
 }
 
 .hero img {
@@ -60,7 +68,7 @@ nav {
   display: block;
   overflow: auto;
   font-size: x-large;
-  color: white;
+  border-radius: 4px;
 }
 
 .hero-buttons-lower {
@@ -85,15 +93,15 @@ nav {
 
 #browse-store {
   float: right;
-  width: 40%;
+  width: 35%;
   height: 4rem;
   margin-right: 5%;
   background: #487ea2;
   color: white;
   border-style: none;
   border-radius: 10px;
-  margin-top: 2%;
-  font-size: xxx-large;
+  margin-top: 35px;
+  font-size: xx-large;
   font-weight: lighter;
 }
 
@@ -117,6 +125,7 @@ h2 {
   display: flex;
   border-top: solid;
   border-color: #bcbcbc;
+  border-width: thin;
 }
 
 .column {
@@ -130,6 +139,7 @@ h2 {
   border-color: #bcbcbc;
   background-image: linear-gradient(white, #f2f2f2);
   border-bottom: solid #bcbcbc;
+  border-width: thin;
 }
 
 .column img {
@@ -170,6 +180,7 @@ h3 {
 }
 .about-company {
   border-top: none !important;
+  margin-top: 3%;
 }
 
 .bold-info {
@@ -190,4 +201,20 @@ footer {
   border-top: none;
   z-index: 80;
   margin-top: -1%;
+}
+
+footer p {
+  float: left;
+  margin-top: 0;
+  color: #989897;
+}
+
+footer a {
+  float: left;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+hr {
+  background-color: #bcbcbc;
 }
