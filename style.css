@@ -77,9 +77,10 @@ nav {
 }
 
 .store-browse {
-  border-style: groove;
+  border-style: solid;
   margin-top: 1rem;
   border-radius: 4px;
+  border-color: #bcbcbc;
 }
 
 #browse-store {
@@ -128,6 +129,7 @@ h2 {
   height: fit-content;
   border-color: #bcbcbc;
   background-image: linear-gradient(white, #f2f2f2);
+  border-bottom: solid #bcbcbc;
 }
 
 .column img {
@@ -164,7 +166,28 @@ h3 {
   background-image: none !important;
   height: auto;
   border-right: none !important;
+  border-bottom: none !important;
 }
 .about-company {
   border-top: none !important;
+}
+
+.bold-info {
+  font-weight: 900;
+}
+
+footer {
+  margin-bottom: 2rem;
+  border-top: solid 1px #bcbcbc;
+  padding: 1rem;
+}
+
+#empty-row {
+  background-color: #f2f2f2;
+  height: 60px;
+  border-style: solid;
+  border-color: #bcbcbc;
+  border-top: none;
+  z-index: 80;
+  margin-top: -1%;
 }
