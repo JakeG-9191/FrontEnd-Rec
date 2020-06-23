@@ -41,7 +41,9 @@ nav {
   border-top: 0;
   border-bottom: 0;
   border-left: 0;
-  border-color: chartreuse;
+  border-color: #e3e3e3;
+  border-style: groove;
+  font-weight: 900;
 }
 
 .hero {
@@ -72,4 +74,81 @@ nav {
 
 #first-hero-button {
   color: white;
+}
+
+.store-browse {
+  border-style: groove;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+#browse-store {
+  float: right;
+  width: 40%;
+  height: 4rem;
+  margin-right: 5%;
+  background: #487ea2;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  margin-top: 2%;
+  font-size: xxx-large;
+  font-weight: lighter;
+}
+
+h2 {
+  float: left;
+  margin-left: 5%;
+  font-size: -webkit-xxx-large;
+  color: #bcbcbc;
+  font-weight: normal;
+}
+
+.store-browse-bottom {
+  clear: both;
+}
+
+.add-bottom {
+  margin-top: 1rem;
+}
+
+.row {
+  display: flex;
+  border-top: solid;
+}
+
+.column {
+  flex: 25%;
+  padding: 1rem;
+  position: relative;
+  border-right: solid;
+  display: block;
+  overflow: inherit;
+  height: fit-content;
+}
+
+.column img {
+  height: 3rem;
+}
+
+h3 {
+  display: inline;
+  margin-left: 2%;
+  position: absolute;
+}
+
+.inject-info-image {
+  height: 200px !important;
+  width: 100%;
+}
+
+.store-buttons {
+  width: 100%;
+  font-size: x-large;
+  background-color: #5ba7df;
+  color: white;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+  padding: 1rem;
 }
