@@ -2,3 +2,74 @@ body {
   width: 80%;
   margin-left: 10%;
 }
+
+#search-bar {
+  float: right;
+  position: relative;
+}
+
+#menu-icon {
+  float: left;
+  height: 7rem;
+}
+
+#menu-icon-2 {
+  position: absolute;
+  top: 1rem;
+  left: -5rem;
+  height: 20px;
+}
+
+input {
+  position: absolute;
+  top: 1rem;
+  left: -15rem;
+}
+
+nav {
+  margin-top: 5%;
+  background-color: #e3e3e3;
+  border-radius: 4px;
+  display: block;
+}
+
+.nav-buttons {
+  padding: 3rem;
+  border-style: solid;
+  background-color: #e3e3e3;
+  margin-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-color: chartreuse;
+}
+
+.hero {
+  margin-top: 1%;
+}
+
+.hero img {
+  width: 100%;
+  margin-bottom: -5px;
+}
+
+.hero-buttons {
+  background-color: #414141;
+  display: block;
+  overflow: auto;
+  font-size: x-large;
+  color: white;
+}
+
+.hero-buttons-lower {
+  background-color: #414141;
+  padding: 1%;
+  border-style: none;
+  color: #90c1d3;
+  font-size: larger;
+  margin-left: 1rem;
+}
+
+#first-hero-button {
+  color: white;
+}
